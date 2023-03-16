@@ -4,6 +4,11 @@ fn main() {
     println!("Original :{:?}  ", list);
     bubble_sort(&mut list);
     println!("After sorting :{:?}  ", list);
+
+    let mut list = vec!['a','d', 'N','e', 'A', 'Z', 'a', 'W'];
+    println!("Original :{:?}  ", list);
+    bubble_sort(&mut list);
+    println!("After sorting :{:?}  ", list);
  
 }
  
